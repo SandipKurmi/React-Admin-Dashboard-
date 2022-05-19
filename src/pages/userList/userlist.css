@@ -33,4 +33,5 @@
 .userListDelete {
   color: red;
   cursor: pointer;
+  padding-left: 50px;
 }

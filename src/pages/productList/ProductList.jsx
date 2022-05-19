@@ -14,11 +14,11 @@ const ProductList = () => {
     };
 
     const columns = [
-        { field: "id", headerName: "ID", width: 70 },
+        { field: "id", headerName: "ID", width: 100 },
         {
             field: "product",
             headerName: "Product",
-            width: 200,
+            width: 250,
             renderCell: (params) => {
                 return (
                     <div className="productListProduct">
@@ -28,21 +28,24 @@ const ProductList = () => {
                 );
             },
         },
-        { field: "stock", headerName: "Stock", width: 200 },
+        { field: "stock", headerName: "Stock", width: 250 },
         {
             field: "status",
             headerName: "Status",
-            width: 120,
+            width: 200,
+
         },
         {
             field: "price",
             headerName: "Price",
-            width: 160,
+            width: 180,
+
         },
         {
             field: "action",
             headerName: "Action",
-            width: 150,
+            width: 250,
+
             renderCell: (params) => {
                 return (
                     <>
