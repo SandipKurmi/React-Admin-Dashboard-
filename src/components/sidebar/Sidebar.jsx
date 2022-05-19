@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "./sidebar.css";
 import {
   LineStyle,
@@ -14,7 +15,7 @@ import {
   WorkTwoTone,
   ReportTwoTone,
 } from "@material-ui/icons";
-import { Link } from "react-router-dom";
+
 
 const Sidebar = () => {
   return (
@@ -23,18 +24,24 @@ const Sidebar = () => {
         <div className="sidbarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidbarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
-            <li className="sidbarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidbarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
-            </li>
+            <Link to="/" className="link">
+              <li className="sidbarListItem active">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li></Link>
+            <Link to="/analytics" className="link" >
+              <li className="sidbarListItem">
+                <Timeline className="sidebarIcon" />
+                Analytics
+              </li>
+            </Link>
+            <Link to="sales" className="link">
+              <li className="sidbarListItem">
+                <TrendingUp className="sidebarIcon" />
+                Sales
+              </li>
+            </Link>
+
           </ul>
         </div>
         <div className="sidbarMenu">

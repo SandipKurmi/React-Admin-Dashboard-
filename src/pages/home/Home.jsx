@@ -5,7 +5,7 @@ import { userData } from '../../dummyData'
 import WidgetsSm from '../../components/widgetSm/widgetSm'
 import WidgetsLg from '../../components/widgetLg/widgetLg'
 
-const home = () => {
+const Home = () => {
     // console.log(userData);
     return (
         <div className='home'>
@@ -19,4 +19,4 @@ const home = () => {
     )
 }
 
-export default home
+export default Home

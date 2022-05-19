@@ -152,3 +152,123 @@ export const userRows = [
     },
 ];
 
+
+export const productData = [
+    {
+        name: "Jan",
+        "Sales": 4000,
+    },
+    {
+        name: "Feb",
+        "Sales": 3000,
+    },
+    {
+        name: "Mar",
+        "Sales": 5000,
+    },
+];
+
+export const productRows = [
+    {
+        id: 1,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 2,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 3,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 4,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 5,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 6,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 7,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 8,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 9,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 10,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+    {
+        id: 11,
+        name: "Apple",
+        img:
+            "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1631776566/Croma%20Assets/Communication/Mobiles/Images/243463_wwwi8s.png/mxw_2048,f_auto",
+        stock: 120,
+        status: "active",
+        price: "$120.00",
+    },
+];
+
+
+

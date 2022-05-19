@@ -60,7 +60,7 @@ const UserList = () => {
 
   return (
     <div className="userList">
-      UserList
+      <h1 className="user">User List</h1>
       <DataGrid
         rows={data}
         disableSelectionOnClick
