@@ -94,10 +94,12 @@ const Sidebar = () => {
               <WorkTwoTone className="sidebarIcon" />
               Manage
             </li>
-            <li className="sidbarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
+            <Link to="/analytics" className="link" >
+              <li className="sidbarListItem">
+                <Timeline className="sidebarIcon" />
+                Analytics
+              </li>
+            </Link>
             <li className="sidbarListItem">
               <ReportTwoTone className="sidebarIcon" />
               Repors

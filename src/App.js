@@ -24,24 +24,9 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        {/* <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/users">
-            <UsersList />
-          </Route>
-          <Route path="/user/:userId">
-            <User />
-          </Route>
-          <Route path="/newUser">
-            <NewUser />
-          </Route>
-        </Switch> */}
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
-
           <Route path="/analytics" element={<Chart data={userData} title="User Analytics" grid dataKey="Active User" />}></Route>
           <Route path="/sales" element={<Seles />}></Route>
           <Route path="/users" exact element={<UsersList />}></Route>
